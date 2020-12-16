@@ -1,0 +1,28 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title class="title-red" [ngClass]="{'title-blue': flag}
+">Hola mundo</ion-title>
+    <h1 *ngIf="!flag">{{variable}}</h1>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <h1>aksjglkasg</h1>
+  <p>ajkfajlsf<br><h1>wena</h1> </p>
+
+  <div class="ax">
+
+    <ion-button (click)="changeValue()">Anchor</ion-button>
+  </div>
+  <div class="x">
+    <ion-button (click)="changeStatus()">Cambio Estado</ion-button>
+  </div>
+
+  <div class="p">
+
+  </div>
+
+</ion-content>
